@@ -1,0 +1,12 @@
+.card{
+    margin: 20px;
+    border-style: solid;
+    border-color: aqua;
+    font-weight: bold;
+    font-style: italic;
+    
+    text-align: center;
+}
+.marq{
+    margin: 20px;
+}

@@ -1,0 +1,89 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url('https://wallpapers.com/images/hd/anime-fight-kirito-s-swords-m3fys88dcdwfuje9.jpg');
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .home-container {
+      align-items: flex-start;
+      padding-left: 120px;
+      background-image: url('https://wallpapers.com/images/hd/anime-fight-kirito-s-swords-m3fys88dcdwfuje9.jpg');
+      background-size: cover;
+      height: 100vh;
+      background-repeat: no-repeat;
+      
+      
+    }
+  }
+  
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 100vh;
+  }
+  
+ 
+  
+  .home-heading {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+   
+    margin-bottom: 5px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .home-heading {
+      font-size: 62px;
+      
+      line-height: 1.2;
+    }
+  }
+  
+  .home-description {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 35px;
+    color: #ffffff;
+    margin-bottom: 0;
+    
+  }
+  
+  @media screen and (min-width: 768px) {
+    .home-description {
+      font-size: 20px;
+      
+    }
+  }
+  
+  .button {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: white;
+    border: none;
+    padding: 12px 12px;
+    border-radius: 5px;
+    background-color: #4f46e5;
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .button {
+      width: 150px;
+      font-size: 16px;
+    }
+  }

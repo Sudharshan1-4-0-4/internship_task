@@ -1,0 +1,35 @@
+###
+
+POST http://localhost:4001/register/
+Content-Type: application/json
+
+{   
+    "name":"kaira",
+    "email": "kaira@gmail.com",
+    "password": "kaira"
+    
+}
+
+
+###
+
+POST http://localhost:4001/login/
+Content-Type: application/json
+
+{
+    "name":"kaira",
+    "password": "kaia"
+}
+
+###
+
+POST http://localhost:4001/tasks/
+Content-Type: application/json
+
+{
+    "assessment_id":"2",
+    "assessment_name": "backend"
+}
+
+###
+GET http://localhost:4001/assessments/
